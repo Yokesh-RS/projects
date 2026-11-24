@@ -10,3 +10,5 @@ __pycache__/
 /data/new_pdfs/
 /data/new_documents.json
 /data/*review_report.csv
+
+/data/pdfs/

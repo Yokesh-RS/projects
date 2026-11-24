@@ -1,2 +1,12 @@
-/data
+# Local Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
 .env
+
+# Temporary integration artifacts
+/data/new_pdfs/
+/data/new_documents.json
+/data/*review_report.csv

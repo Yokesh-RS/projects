@@ -48,8 +48,11 @@ class InvertedIndex:
             return pickle.load(file)
 
 
-def build_index(corpus_file):
+def build_index(corpus_file, catalogue_file):
     index = InvertedIndex()
+
+    with open(catalogue_file, "r", encoding="utf-8") as file:
+        catalogue = json.load(file)
 
     with open(corpus_file, "r", encoding="utf-8") as file:
         for line in file:
@@ -60,7 +63,8 @@ def build_index(corpus_file):
                 "title": paper.get("title") or "",
                 "authors": paper.get("authors", []),
                 "year": paper.get("year"),
-                "url": paper.get("pdf_url")
+                "url": paper.get("pdf_url"),
+                "topics": catalogue.get(paper["document_id"], {}).get("metadata", {}).get("topics", [])
             }
 
             index.add_document(document, clean_text(paper.get("full_text") or ""))

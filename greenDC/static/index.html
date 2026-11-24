@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GreenDC Search</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #ffffff;
+    --panel: #f7f9fc;
+    --panel-2: #eef2f8;
+    --line: #e2e7ef;
+    --text: #111418;
+    --muted: #4a5260;
+    --faint: #7d8694;
+    --blue: #1a4fa3;
+    --blue-dark: #123a7a;
+    --blue-soft: rgba(26, 79, 163, 0.08);
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --sans: "Inter", system-ui, -apple-system, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.55 var(--sans);
+  }
+
+  a { color: inherit; }
+
+  /* ---------- header / hero ---------- */
+  header {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 18vh 20px 0;
+    text-align: center;
+    transition: padding 0.35s ease;
+  }
+
+  .brand {
+    font: 600 56px/1 var(--serif);
+    letter-spacing: -0.01em;
+    color: var(--text);
+    margin: 0;
+  }
+  .brand span { color: var(--blue); }
+
+  .tagline {
+    color: var(--muted);
+    margin: 12px 0 34px;
+    font-size: 16px;
+  }
+
+  .search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--bg);
+    border: 1px solid #cfd6e1;
+    border-radius: 14px;
+    box-shadow: 0 1px 3px rgba(16, 24, 40, 0.06);
+    padding: 6px 6px 6px 18px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .search-box:focus-within {
+    border-color: var(--blue);
+    box-shadow: 0 0 0 4px var(--blue-soft), 0 6px 24px rgba(16, 24, 40, 0.08);
+  }
+  .search-box svg { flex: none; color: var(--faint); }
+
+  .search-box input {
+    flex: 1;
+    min-width: 0;
+    background: none;
+    border: 0;
+    outline: 0;
+    color: var(--text);
+    font: 17px var(--sans);
+    padding: 12px 0;
+  }
+  .search-box input::placeholder { color: var(--faint); }
+  .search-box input::-webkit-search-cancel-button { -webkit-appearance: none; }
+
+  .search-box button {
+    background: var(--blue);
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    padding: 11px 20px;
+    font: 600 14px var(--sans);
+    cursor: pointer;
+  }
+  .search-box button:hover { background: var(--blue-dark); }
+
+  kbd {
+    font: 12px var(--mono);
+    color: var(--faint);
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    padding: 1px 6px;
+  }
+
+  .models {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 16px;
+  }
+  .models button {
+    background: none;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font: 500 13px var(--sans);
+    cursor: pointer;
+  }
+  .models button:hover { color: var(--text); border-color: var(--faint); }
+  .models button.active {
+    background: var(--blue-soft);
+    border-color: var(--blue);
+    color: var(--blue);
+  }
+
+  .model-note {
+    color: var(--faint);
+    font: 12px var(--mono);
+    margin-top: 10px;
+    min-height: 18px;
+  }
+
+  .examples {
+    margin-top: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+  .examples span { color: var(--faint); font-size: 13px; width: 100%; margin-bottom: 2px; }
+  .examples button {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    color: var(--muted);
+    border-radius: 8px;
+    padding: 7px 12px;
+    font: 13px var(--sans);
+    cursor: pointer;
+  }
+  .examples button:hover { color: var(--blue); border-color: var(--blue); }
+
+  .corpus-stats {
+    margin-top: 50px;
+    color: var(--faint);
+    font: 12px var(--mono);
+  }
+
+  /* After the first search the hero collapses into a sticky top bar. */
+  body.searched header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    max-width: none;
+    padding: 14px 20px;
+    display: grid;
+    grid-template-columns: auto minmax(0, 680px) 1fr;
+    align-items: center;
+    gap: 24px;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+  }
+  body.searched .brand { font-size: 26px; cursor: pointer; }
+  body.searched .tagline,
+  body.searched .examples,
+  body.searched .corpus-stats,
+  body.searched .model-note { display: none; }
+  body.searched .search-box { border-radius: 11px; }
+  body.searched .search-box input { padding: 8px 0; font-size: 15px; }
+  body.searched .search-box button { padding: 8px 16px; }
+  body.searched .models { grid-column: 2; justify-content: flex-start; margin-top: 0; }
+
+  /* ---------- results layout ---------- */
+  main {
+    display: none;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 28px 20px 80px;
+    grid-template-columns: 250px minmax(0, 1fr);
+    gap: 40px;
+  }
+  body.searched main { display: grid; }
+
+  aside { position: sticky; top: 140px; align-self: start; }
+
+  .facet { margin-bottom: 30px; }
+  .facet h3 {
+    font: 500 11px var(--mono);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--faint);
+    margin: 0 0 12px;
+  }
+
+  .topic {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: none;
+    border: 0;
+    border-left: 2px solid transparent;
+    color: var(--muted);
+    padding: 6px 10px;
+    font: 13px var(--sans);
+    text-align: left;
+    cursor: pointer;
+  }
+  .topic:hover { color: var(--text); background: var(--panel); }
+  .topic.active { color: var(--blue); border-left-color: var(--blue); background: var(--blue-soft); }
+  .topic small { font-family: var(--mono); color: var(--faint); }
+
+  .histogram {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    height: 56px;
+  }
+  .histogram div {
+    flex: 1;
+    background: var(--line);
+    border-radius: 2px 2px 0 0;
+    min-height: 2px;
+  }
+  .histogram div.in-range { background: var(--blue); opacity: 0.7; }
+  .histogram-labels {
+    display: flex;
+    justify-content: space-between;
+    font: 11px var(--mono);
+    color: var(--faint);
+    margin-top: 6px;
+  }
+
+  .since { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .since button {
+    background: none;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    border-radius: 6px;
+    padding: 4px 9px;
+    font: 12px var(--mono);
+    cursor: pointer;
+  }
+  .since button.active { border-color: var(--blue); color: var(--blue); }
+
+  .summary {
+    color: var(--muted);
+    font: 13px var(--mono);
+    margin-bottom: 22px;
+  }
+  .summary b { color: var(--text); font-weight: 500; }
+  .summary .clear {
+    margin-left: 10px;
+    color: var(--blue);
+    cursor: pointer;
+    text-decoration: underline dotted;
+  }
+
+  /* ---------- result cards ---------- */
+  .result {
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr);
+    gap: 4px;
+    padding: 22px 0;
+    border-bottom: 1px solid var(--line);
+    animation: rise 0.35s ease both;
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(6px); }
+  }
+
+  .rank { font: 13px var(--mono); color: var(--faint); padding-top: 4px; }
+
+  .result h2 {
+    font: 600 19px/1.35 var(--serif);
+    margin: 0 0 6px;
+  }
+  .result h2 a { color: var(--blue); text-decoration: none; }
+  .result h2 a:hover { text-decoration: underline; }
+
+  .meta {
+    font: 13px var(--sans);
+    color: var(--faint);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    margin-bottom: 10px;
+  }
+  .meta .authors { color: var(--muted); }
+
+  .snippet { color: var(--text); margin: 0 0 12px; }
+  .snippet::before { content: "… "; color: var(--faint); }
+  .snippet::after { content: " …"; color: var(--faint); }
+
+  /* Classic search-engine style: matched words in bold black. */
+  mark {
+    background: none;
+    color: inherit;
+    font-weight: 700;
+  }
+
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+  }
+  .chip {
+    font: 11px var(--mono);
+    color: var(--muted);
+    background: var(--panel-2);
+    border-radius: 5px;
+    padding: 3px 8px;
+  }
+  .actions { margin-left: auto; display: flex; gap: 14px; font: 12px var(--mono); }
+  .actions a { color: var(--blue); text-decoration: none; }
+  .actions a:hover { text-decoration: underline; }
+
+  .score {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font: 11px var(--mono);
+    color: var(--faint);
+  }
+  .score .bar { width: 60px; height: 3px; background: var(--line); border-radius: 2px; overflow: hidden; }
+  .score .bar i { display: block; height: 100%; background: var(--blue); }
+
+  .more {
+    display: block;
+    margin: 30px auto 0;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    color: var(--text);
+    border-radius: 10px;
+    padding: 11px 26px;
+    font: 500 14px var(--sans);
+    cursor: pointer;
+  }
+  .more:hover { border-color: var(--blue); }
+  .more[hidden] { display: none; }
+  .no-topics { color: var(--faint); font-size: 13px; }
+
+  .empty { padding: 60px 0; color: var(--muted); }
+  .empty h2 { font: 500 24px var(--serif); color: var(--text); margin: 0 0 8px; }
+
+  /* Loading placeholders */
+  .skeleton { padding: 22px 0 22px 44px; border-bottom: 1px solid var(--line); }
+  .skeleton div {
+    height: 12px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, var(--panel) 0%, var(--panel-2) 50%, var(--panel) 100%) 0 0 / 200% 100%;
+    animation: shimmer 1.2s linear infinite;
+  }
+  @keyframes shimmer { to { background-position: -200% 0; } }
+
+  @media (max-width: 860px) {
+    header { padding-top: 12vh; }
+    .brand { font-size: 42px; }
+    body.searched header { grid-template-columns: minmax(0, 1fr); gap: 10px; padding: 12px 16px; }
+    body.searched .models { grid-column: 1; overflow-x: auto; flex-wrap: nowrap; }
+    body.searched .models button { flex: none; }
+    body.searched main { grid-template-columns: minmax(0, 1fr); gap: 0; padding: 20px 16px 60px; }
+    kbd { display: none; }
+    aside { position: static; }
+    .facet { margin-bottom: 20px; }
+    /* Topics become wrapping chips instead of a tall list. */
+    #topics { display: flex; flex-wrap: wrap; gap: 6px; }
+    .topic { width: auto; gap: 8px; border: 1px solid var(--line); border-radius: 6px; }
+    .topic.active { border-color: var(--blue); }
+    .histogram { height: 36px; }
+    .result { grid-template-columns: 1fr; }
+    .rank { display: none; }
+    .actions { margin-left: 0; width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1 class="brand" id="brand">Green<span>DC</span></h1>
+  <p class="tagline">Search the research on sustainable data centres: energy, cooling, water and carbon.</p>
+
+  <form class="search-box" id="search-form">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="query" type="search" placeholder="e.g. liquid cooling water usage" autocomplete="off" autofocus>
+    <kbd>/</kbd>
+    <button type="submit">Search</button>
+  </form>
+
+  <div class="models" id="models"></div>
+  <div class="model-note" id="model-note"></div>
+
+  <div class="examples">
+    <span>Try one of these</span>
+    <button>carbon aware workload scheduling</button>
+    <button>immersion cooling for GPU clusters</button>
+    <button>data centre water consumption</button>
+    <button>waste heat reuse district heating</button>
+    <button>cooling AND water NOT nuclear</button>
+  </div>
+
+  <div class="corpus-stats" id="corpus-stats"></div>
+</header>
+
+<main>
+  <aside>
+    <div class="facet">
+      <h3>Topics</h3>
+      <div id="topics"></div>
+    </div>
+    <div class="facet">
+      <h3>Published</h3>
+      <div class="histogram" id="histogram"></div>
+      <div class="histogram-labels" id="histogram-labels"></div>
+      <div class="since" id="since"></div>
+    </div>
+  </aside>
+
+  <section>
+    <div class="summary" id="summary"></div>
+    <div id="results"></div>
+    <button class="more" id="more" hidden>Load more results</button>
+  </section>
+</main>
+
+<script>
+  const MODELS = {
+    lm: ["Language model", "query likelihood · Dirichlet smoothing"],
+    lm_jm: ["LM (JM)", "query likelihood · Jelinek-Mercer smoothing"],
+    bm25: ["BM25", "probabilistic · Okapi BM25"],
+    tfidf: ["TF-IDF", "vector space · cosine similarity"],
+    boolean: ["Boolean", "exact matching · use AND, OR, NOT"]
+  };
+  const SINCE = [["All", null], ["2015+", 2015], ["2020+", 2020], ["2023+", 2023]];
+  const PAGE_SIZE = 10;
+
+  const state = { q: "", model: "lm", topic: null, yearFrom: null, offset: 0, topScore: null };
+
+  const $ = id => document.getElementById(id);
+
+  function escapeHtml(text) {
+    const div = document.createElement("div");
+    div.textContent = text ?? "";
+    return div.innerHTML;
+  }
+
+  function renderModels() {
+    $("models").innerHTML = Object.entries(MODELS).map(([key, [label]]) =>
+      `<button type="button" data-model="${key}" class="${key === state.model ? "active" : ""}">${label}</button>`
+    ).join("");
+    $("model-note").textContent = MODELS[state.model][1];
+  }
+
+  function formatAuthors(authors) {
+    if (!authors.length) return "Unknown authors";
+    if (authors.length <= 3) return authors.join(", ");
+    return authors.slice(0, 3).join(", ") + ` +${authors.length - 3}`;
+  }
+
+  // How strong each hit is compared with the top hit. LM scores are log
+  // probabilities, so the difference has to go back through exp().
+  function relativeScore(score) {
+    if (state.model === "boolean" || state.topScore === null) return null;
+    if (state.model.startsWith("lm")) return Math.exp(score - state.topScore);
+    return state.topScore > 0 ? score / state.topScore : null;
+  }
+
+  function resultCard(r) {
+    const rel = relativeScore(r.score);
+    const scoreHtml = rel === null ? "" :
+      `<span class="score"><span class="bar"><i style="width:${Math.max(4, rel * 100)}%"></i></span>${r.score}</span>`;
+    const link = r.has_pdf ? `/pdf/${r.doc_id}` : r.url;
+
+    return `
+      <article class="result">
+        <div class="rank">${String(r.rank).padStart(2, "0")}</div>
+        <div>
+          <h2><a href="${escapeHtml(link)}" target="_blank" rel="noopener">${r.title_html}</a></h2>
+          <div class="meta">
+            <span>${r.year ?? "n.d."}</span>
+            <span class="authors">${escapeHtml(formatAuthors(r.authors))}</span>
+            <span>${r.doc_id}</span>
+          </div>
+          <p class="snippet">${r.snippet_html}</p>
+          <div class="footer-row">
+            ${r.topics.map(t => `<span class="chip">${escapeHtml(t)}</span>`).join("")}
+            ${scoreHtml}
+            <span class="actions">
+              ${r.has_pdf ? `<a href="/pdf/${r.doc_id}" target="_blank">PDF ↗</a>` : ""}
+              ${r.url ? `<a href="${escapeHtml(r.url)}" target="_blank" rel="noopener">Source ↗</a>` : ""}
+            </span>
+          </div>
+        </div>
+      </article>`;
+  }
+
+  function renderFacets(data) {
+    $("topics").innerHTML = data.topics.map(([name, count]) =>
+      `<button class="topic ${name === state.topic ? "active" : ""}" data-topic="${escapeHtml(name)}">
+        <span>${escapeHtml(name)}</span><small>${count}</small>
+      </button>`
+    ).join("") || `<div class="no-topics">No matching papers</div>`;
+
+    const years = data.years;
+    if (years.length) {
+      const first = years[0][0], last = years[years.length - 1][0];
+      const counts = Object.fromEntries(years);
+      const max = Math.max(...years.map(y => y[1]));
+      let bars = "";
+      for (let y = first; y <= last; y++) {
+        const c = counts[y] || 0;
+        const inRange = !state.yearFrom || y >= state.yearFrom;
+        bars += `<div class="${c && inRange ? "in-range" : ""}" style="height:${(c / max) * 100}%" title="${y}: ${c}"></div>`;
+      }
+      $("histogram").innerHTML = bars;
+      $("histogram-labels").innerHTML = `<span>${first}</span><span>${last}</span>`;
+    } else {
+      $("histogram").innerHTML = "";
+      $("histogram-labels").innerHTML = "";
+    }
+
+    $("since").innerHTML = SINCE.map(([label, year]) =>
+      `<button data-year="${year ?? ""}" class="${year === state.yearFrom ? "active" : ""}">${label}</button>`
+    ).join("");
+  }
+
+  function renderSummary(data) {
+    const filters = [];
+    if (state.topic) filters.push(state.topic);
+    if (state.yearFrom) filters.push(`since ${state.yearFrom}`);
+    $("summary").innerHTML =
+      `<b>${data.total_hits}</b> papers · ${data.time_ms} ms · ${MODELS[state.model][0]}` +
+      (filters.length ? ` · ${escapeHtml(filters.join(", "))}<span class="clear" id="clear">clear filters</span>` : "");
+  }
+
+  function showLoading() {
+    $("results").innerHTML = Array(4).fill(
+      `<div class="skeleton"><div style="width:70%"></div><div style="width:35%"></div><div></div><div style="width:85%"></div></div>`
+    ).join("");
+    $("more").hidden = true;
+  }
+
+  async function runSearch(append = false) {
+    if (!state.q.trim()) return;
+    document.body.classList.add("searched");
+
+    if (!append) {
+      state.offset = 0;
+      showLoading();
+    }
+
+    const params = new URLSearchParams({ q: state.q, model: state.model, k: PAGE_SIZE, offset: state.offset });
+    if (state.topic) params.set("topic", state.topic);
+    if (state.yearFrom) params.set("year_from", state.yearFrom);
+
+    // Keep the search in the URL so refresh / back / sharing a link works.
+    const urlParams = new URLSearchParams({ q: state.q, model: state.model });
+    history.replaceState(null, "", "?" + urlParams);
+
+    const response = await fetch("/api/search?" + params);
+    const data = await response.json();
+
+    if (!append) state.topScore = data.results.length ? data.results[0].score : null;
+
+    const cards = data.results.map(resultCard).join("");
+    if (append) {
+      $("results").insertAdjacentHTML("beforeend", cards);
+    } else if (data.results.length) {
+      $("results").innerHTML = cards;
+      window.scrollTo({ top: 0 });
+    } else {
+      $("results").innerHTML = `
+        <div class="empty">
+          <h2>No papers matched “${escapeHtml(state.q)}”</h2>
+          <p>Try fewer or more general words${state.model === "boolean" ? ", or switch to a ranked model" : ""}${state.topic || state.yearFrom ? ", or clear the filters" : ""}.</p>
+        </div>`;
+    }
+
+    renderFacets(data);
+    renderSummary(data);
+    state.offset += data.results.length;
+    $("more").hidden = state.offset >= data.total_hits;
+  }
+
+  // ---------- events ----------
+  $("search-form").addEventListener("submit", event => {
+    event.preventDefault();
+    state.q = $("query").value;
+    runSearch();
+  });
+
+  $("models").addEventListener("click", event => {
+    const button = event.target.closest("button");
+    if (!button) return;
+    state.model = button.dataset.model;
+    renderModels();
+    runSearch();
+  });
+
+  document.querySelector(".examples").addEventListener("click", event => {
+    if (event.target.tagName !== "BUTTON") return;
+    $("query").value = state.q = event.target.textContent;
+    if (state.q.includes(" AND ") || state.q.includes(" NOT ")) {
+      state.model = "boolean";
+      renderModels();
+    }
+    runSearch();
+  });
+
+  $("topics").addEventListener("click", event => {
+    const button = event.target.closest("button");
+    if (!button) return;
+    state.topic = state.topic === button.dataset.topic ? null : button.dataset.topic;
+    runSearch();
+  });
+
+  $("since").addEventListener("click", event => {
+    const button = event.target.closest("button");
+    if (!button) return;
+    state.yearFrom = button.dataset.year ? Number(button.dataset.year) : null;
+    runSearch();
+  });
+
+  $("summary").addEventListener("click", event => {
+    if (event.target.id !== "clear") return;
+    state.topic = null;
+    state.yearFrom = null;
+    runSearch();
+  });
+
+  $("more").addEventListener("click", () => runSearch(true));
+
+  $("brand").addEventListener("click", () => {
+    if (!document.body.classList.contains("searched")) return;
+    document.body.classList.remove("searched");
+    history.replaceState(null, "", "/");
+    $("query").value = state.q = "";
+    $("query").focus();
+  });
+
+  document.addEventListener("keydown", event => {
+    if (event.key === "/" && document.activeElement !== $("query")) {
+      event.preventDefault();
+      $("query").focus();
+      $("query").select();
+    }
+  });
+
+  // ---------- start ----------
+  fetch("/api/stats").then(r => r.json()).then(s => {
+    $("corpus-stats").textContent =
+      `${s.documents} papers · ${s.terms.toLocaleString()} indexed terms · ${s.year_min}–${s.year_max}`;
+  });
+
+  const startParams = new URLSearchParams(location.search);
+  if (MODELS[startParams.get("model")]) state.model = startParams.get("model");
+  renderModels();
+  if (startParams.get("q")) {
+    $("query").value = state.q = startParams.get("q");
+    runSearch();
+  }
+</script>
+</body>
+</html>

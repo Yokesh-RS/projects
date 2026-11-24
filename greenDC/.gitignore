@@ -12,3 +12,4 @@ __pycache__/
 /data/*review_report.csv
 
 /data/pdfs/
+greenDC/test_search.py

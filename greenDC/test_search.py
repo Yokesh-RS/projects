@@ -39,7 +39,7 @@ if __name__ == "__main__":
     print("\n========== Ranked retrieval ==========")
     summary = []
     for query, keywords in SAMPLE_QUERIES:
-        for model in ["tfidf", "bm25"]:
+        for model in ["tfidf", "bm25", "lm", "lm_jm"]:
             response = engine.search(query, model, TOP_K)
             show_results(response)
 

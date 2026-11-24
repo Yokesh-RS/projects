@@ -10,7 +10,7 @@
         "openalex_id": "https://openalex.org/W2007777261",
         "source_url": "https://openalex.org/W2007777261",
         "pdf_url": "http://eprints.whiterose.ac.uk/89080/8/green%20data%20center%20survey.pdf",
-        "document_path": "data/pdfs/A_survey_on_architectures_and_energy_efficiency_in_Data_Center_Networks.pdf",
+        "document_path": "data/pdfs/GD151.pdf",
         "download_status": "integrated",
         "document_id": "GD151",
         "review_status": "keep"
@@ -28,7 +28,7 @@
         "openalex_id": "https://openalex.org/W2086478591",
         "source_url": "https://openalex.org/W2086478591",
         "pdf_url": "http://eprints.whiterose.ac.uk/79352/1/GBrady%20Case%20Study%20of%20PUE.pdf",
-        "document_path": "data/pdfs/A_case_study_and_critical_assessment_in_calculating_power_usage_effectiveness_for_a_data_centre.pdf",
+        "document_path": "data/pdfs/GD152.pdf",
         "download_status": "integrated",
         "document_id": "GD152",
         "review_status": "keep"
@@ -46,7 +46,7 @@
         "openalex_id": "https://openalex.org/W4408729779",
         "source_url": "https://openalex.org/W4408729779",
         "pdf_url": "https://ri.diva-portal.org/smash/get/diva2:1999220/FULLTEXT01",
-        "document_path": "data/pdfs/Data_centres_as_a_source_of_flexibility_for_power_systems.pdf",
+        "document_path": "data/pdfs/GD153.pdf",
         "download_status": "integrated",
         "document_id": "GD153",
         "review_status": "review"
@@ -64,7 +64,7 @@
         "openalex_id": "https://openalex.org/W2903760205",
         "source_url": "https://openalex.org/W2903760205",
         "pdf_url": "https://www.intechopen.com/citation-pdf-url/63708",
-        "document_path": "data/pdfs/Characterizing_Power_and_Energy_Efficiency_of_Legion_Data_Centric_Runtime_and_Applications_on_Hetero.pdf",
+        "document_path": "data/pdfs/GD154.pdf",
         "download_status": "integrated",
         "document_id": "GD154",
         "review_status": "review"
@@ -84,7 +84,7 @@
         "openalex_id": "https://openalex.org/W2014620976",
         "source_url": "https://openalex.org/W2014620976",
         "pdf_url": "https://academica-e.unavarra.es/bitstreams/a386f678-a130-43e8-8cb6-08230ddc02d9/download",
-        "document_path": "data/pdfs/Influence_of_the_power_supply_on_the_energy_efficiency_of_an_alkaline_water_electrolyser.pdf",
+        "document_path": "data/pdfs/GD155.pdf",
         "download_status": "integrated",
         "document_id": "GD155",
         "review_status": "review"
@@ -99,7 +99,7 @@
         "openalex_id": "https://openalex.org/W4295227201",
         "source_url": "https://openalex.org/W4295227201",
         "pdf_url": "https://doi.org/10.46647/ijetms.2022.v06i05.116",
-        "document_path": "data/pdfs/Improving_Energy_Efficiency_in_Cloud_Computing_Data_centres_Using_Intelligent_Mobile_Agents.pdf",
+        "document_path": "data/pdfs/GD156.pdf",
         "download_status": "integrated",
         "document_id": "GD156",
         "review_status": "keep"
@@ -114,7 +114,7 @@
         "openalex_id": "https://openalex.org/W4248877908",
         "source_url": "https://openalex.org/W4248877908",
         "pdf_url": "https://doi.org/10.30534/ijatcse/2020/0591.42020",
-        "document_path": "data/pdfs/Energy_Consumption_Model_for_Virtual_Machines_in_Cloud_Data_Centre.pdf",
+        "document_path": "data/pdfs/GD157.pdf",
         "download_status": "integrated",
         "document_id": "GD157",
         "review_status": "keep"
@@ -129,7 +129,7 @@
         "openalex_id": "https://openalex.org/W4394816080",
         "source_url": "https://openalex.org/W4394816080",
         "pdf_url": "https://journal.esrgroups.org/jes/article/download/1287/1961",
-        "document_path": "data/pdfs/Optimizing_Data_Centre_Energy_Efficiency_with_Dynamic_Resource_Allocation_and_Intelligent_Cooling_Ma.pdf",
+        "document_path": "data/pdfs/GD158.pdf",
         "download_status": "integrated",
         "document_id": "GD158",
         "review_status": "keep"
@@ -146,7 +146,7 @@
         "openalex_id": "https://openalex.org/W4324268188",
         "source_url": "https://openalex.org/W4324268188",
         "pdf_url": "https://eprints.whiterose.ac.uk/id/eprint/193714/1/cifs2022-final.pdf",
-        "document_path": "data/pdfs/On_the_Power_Consumption_of_Serverless_Functions_An_Evaluation_of_OpenFaaS.pdf",
+        "document_path": "data/pdfs/GD159.pdf",
         "download_status": "integrated",
         "document_id": "GD159",
         "review_status": "review"
@@ -163,7 +163,7 @@
         "openalex_id": "https://openalex.org/W4283169732",
         "source_url": "https://openalex.org/W4283169732",
         "pdf_url": "https://www.frontiersin.org/articles/10.3389/fenrg.2022.954718/pdf",
-        "document_path": "data/pdfs/Discussions_of_Cold_Plate_Liquid_Cooling_Technology_and_Its_Applications_in_Data_Center_Thermal_Mana.pdf",
+        "document_path": "data/pdfs/GD160.pdf",
         "download_status": "integrated",
         "document_id": "GD160",
         "review_status": "keep"
@@ -178,7 +178,7 @@
         "openalex_id": "https://openalex.org/W4403353541",
         "source_url": "https://openalex.org/W4403353541",
         "pdf_url": "https://www.ijsr.net/archive/v9i5/SR24820060719.pdf",
-        "document_path": "data/pdfs/Direct_Liquid_Cooling_A_Game_Changer_for_Data_Center_Thermal_Management.pdf",
+        "document_path": "data/pdfs/GD161.pdf",
         "download_status": "integrated",
         "document_id": "GD161",
         "review_status": "keep"
@@ -193,7 +193,7 @@
         "openalex_id": "https://openalex.org/W4399768279",
         "source_url": "https://openalex.org/W4399768279",
         "pdf_url": "https://drpress.org/ojs/index.php/HSET/article/download/21817/21342",
-        "document_path": "data/pdfs/Advancement_of_Liquid_Immersion_Cooling_for_Data_Centers.pdf",
+        "document_path": "data/pdfs/GD162.pdf",
         "download_status": "integrated",
         "document_id": "GD162",
         "review_status": "keep"
@@ -208,7 +208,7 @@
         "openalex_id": "https://openalex.org/W7125787696",
         "source_url": "https://openalex.org/W7125787696",
         "pdf_url": "https://soapubs.com/index.php/GBPPS/article/download/1297/1182",
-        "document_path": "data/pdfs/Stability_Assurance_in_Liquid_Cooling_Systems_for_Data_Centers_Methods_Challenges_and_Solutions.pdf",
+        "document_path": "data/pdfs/GD163.pdf",
         "download_status": "integrated",
         "document_id": "GD163",
         "review_status": "keep"
@@ -224,7 +224,7 @@
         "openalex_id": "https://openalex.org/W4283805408",
         "source_url": "https://openalex.org/W4283805408",
         "pdf_url": "https://www.frontiersin.org/articles/10.3389/fenrg.2022.952680/pdf",
-        "document_path": "data/pdfs/Current_Status_and_Challenges_for_Liquid_Cooled_Data_Centers.pdf",
+        "document_path": "data/pdfs/GD164.pdf",
         "download_status": "integrated",
         "document_id": "GD164",
         "review_status": "keep"
@@ -239,7 +239,7 @@
         "openalex_id": "https://openalex.org/W7204931140",
         "source_url": "https://openalex.org/W7204931140",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s44354-026-00035-0.pdf",
-        "document_path": "data/pdfs/Sensitivity_analysis_of_liquid_to_air_and_liquid_to_liquid_cooling_metrics_under_multilayer_perceptr.pdf",
+        "document_path": "data/pdfs/GD165.pdf",
         "download_status": "integrated",
         "document_id": "GD165",
         "review_status": "keep"
@@ -263,7 +263,7 @@
         "openalex_id": "https://openalex.org/W4415935443",
         "source_url": "https://openalex.org/W4415935443",
         "pdf_url": "https://arxiv.org/pdf/2511.00116",
-        "document_path": "data/pdfs/LC_Opt_Benchmarking_Reinforcement_Learning_and_Agentic_AI_for_End_to_End_Liquid_Cooling_Optimization.pdf",
+        "document_path": "data/pdfs/GD166.pdf",
         "download_status": "integrated",
         "document_id": "GD166",
         "review_status": "keep"
@@ -278,7 +278,7 @@
         "openalex_id": "https://openalex.org/W7220374913",
         "source_url": "https://openalex.org/W7220374913",
         "pdf_url": "https://doi.org/10.7753/ijsea1510.1008",
-        "document_path": "data/pdfs/Assessing_Water_Consumption_and_Cooling_Efficiency_Challenges_Associated_with_Large_Scale_Data_Centr.pdf",
+        "document_path": "data/pdfs/GD167.pdf",
         "download_status": "integrated",
         "document_id": "GD167",
         "review_status": "keep"
@@ -297,7 +297,7 @@
         "openalex_id": "https://openalex.org/W2099156166",
         "source_url": "https://openalex.org/W2099156166",
         "pdf_url": "https://iopscience.iop.org/article/10.1088/1748-9326/9/10/105002/pdf",
-        "document_path": "data/pdfs/The_water_consumption_of_energy_production_an_international_comparison.pdf",
+        "document_path": "data/pdfs/GD168.pdf",
         "download_status": "integrated",
         "document_id": "GD168",
         "review_status": "review"
@@ -313,7 +313,7 @@
         "openalex_id": "https://openalex.org/W1982567818",
         "source_url": "https://openalex.org/W1982567818",
         "pdf_url": "https://link.springer.com/content/pdf/10.1057/rlp.2008.13.pdf",
-        "document_path": "data/pdfs/Water_efficiency_in_leisure_centres.pdf",
+        "document_path": "data/pdfs/GD169.pdf",
         "download_status": "integrated",
         "document_id": "GD169",
         "review_status": "keep"
@@ -332,7 +332,7 @@
         "openalex_id": "https://openalex.org/W4414309456",
         "source_url": "https://openalex.org/W4414309456",
         "pdf_url": "https://eartharxiv.org/repository/object/9039/download/16882/",
-        "document_path": "data/pdfs/Sustainable_AI_infrastructure_A_scenario_based_forecast_of_water_footprint_under_uncertainty.pdf",
+        "document_path": "data/pdfs/GD170.pdf",
         "download_status": "integrated",
         "document_id": "GD170",
         "review_status": "review"
@@ -347,7 +347,7 @@
         "openalex_id": "https://openalex.org/W7220375818",
         "source_url": "https://openalex.org/W7220375818",
         "pdf_url": "https://scrrjournal.com/index.php/14/article/download/841/1055",
-        "document_path": "data/pdfs/Regulating_Water_Consumption_by_AI_Data_Centers_in_Pakistan_An_Environmental_Law_Framework_for_Susta.pdf",
+        "document_path": "data/pdfs/GD171.pdf",
         "download_status": "integrated",
         "document_id": "GD171",
         "review_status": "keep"
@@ -363,7 +363,7 @@
         "openalex_id": "https://openalex.org/W4389372954",
         "source_url": "https://openalex.org/W4389372954",
         "pdf_url": "https://www.nature.com/articles/s44264-023-00006-w.pdf",
-        "document_path": "data/pdfs/Water_resources_in_Saudi_Arabia_trends_in_rainfall_water_consumption_and_analysis_of_agricultural_wa.pdf",
+        "document_path": "data/pdfs/GD172.pdf",
         "download_status": "integrated",
         "document_id": "GD172",
         "review_status": "review"
@@ -382,7 +382,7 @@
         "openalex_id": "https://openalex.org/W4413061419",
         "source_url": "https://openalex.org/W4413061419",
         "pdf_url": "https://arxiv.org/pdf/2412.03716",
-        "document_path": "data/pdfs/A_Water_Efficiency_Dataset_for_African_Data_Centers.pdf",
+        "document_path": "data/pdfs/GD173.pdf",
         "download_status": "integrated",
         "document_id": "GD173",
         "review_status": "keep"
@@ -402,7 +402,7 @@
         "openalex_id": "https://openalex.org/W7169807797",
         "source_url": "https://openalex.org/W7169807797",
         "pdf_url": "https://cspub-ijcisim.org/index.php/ijcisim/article/download/3273/2591",
-        "document_path": "data/pdfs/Sustainable_AI_Computing_through_Dynamic_Workload_Scheduling_and_Carbon_Aware_Neural_Network_Optimiz.pdf",
+        "document_path": "data/pdfs/GD174.pdf",
         "download_status": "integrated",
         "document_id": "GD174",
         "review_status": "keep"
@@ -417,7 +417,7 @@
         "openalex_id": "https://openalex.org/W7162257582",
         "source_url": "https://openalex.org/W7162257582",
         "pdf_url": "https://www.ijsr.net/archive/v15i5/SR26519073728.pdf",
-        "document_path": "data/pdfs/Energy_Efficient_Kubernetes_Scheduling_for_Green_Cloud_Computing_A_Carbon_Aware_Workload_Placement_F.pdf",
+        "document_path": "data/pdfs/GD175.pdf",
         "download_status": "integrated",
         "document_id": "GD175",
         "review_status": "review"
@@ -432,7 +432,7 @@
         "openalex_id": "https://openalex.org/W7234838137",
         "source_url": "https://openalex.org/W7234838137",
         "pdf_url": "https://ijrai.org/index.php/ijrai/article/download/838/779",
-        "document_path": "data/pdfs/Energy_Efficiency_and_Carbon_Aware_Workload_Scheduling_in_Azure.pdf",
+        "document_path": "data/pdfs/GD176.pdf",
         "download_status": "integrated",
         "document_id": "GD176",
         "review_status": "keep"
@@ -461,7 +461,7 @@
         "openalex_id": "https://openalex.org/W3175111539",
         "source_url": "https://openalex.org/W3175111539",
         "pdf_url": "https://ieeexplore.ieee.org/ielx7/59/10054351/09770383.pdf",
-        "document_path": "data/pdfs/Carbon_Aware_Computing_for_Datacenters.pdf",
+        "document_path": "data/pdfs/GD177.pdf",
         "download_status": "integrated",
         "document_id": "GD177",
         "review_status": "review"
@@ -478,7 +478,7 @@
         "openalex_id": "https://openalex.org/W7160856154",
         "source_url": "https://openalex.org/W7160856154",
         "pdf_url": "https://scipublication.com/index.php/AIMLR/article/download/343/312",
-        "document_path": "data/pdfs/CarbonShift_Harnessing_Grid_Carbon_Variability_for_Geo_Distributed_Workload_Scheduling.pdf",
+        "document_path": "data/pdfs/GD178.pdf",
         "download_status": "integrated",
         "document_id": "GD178",
         "review_status": "keep"
@@ -496,7 +496,7 @@
         "openalex_id": "https://openalex.org/W7223696965",
         "source_url": "https://openalex.org/W7223696965",
         "pdf_url": "https://ijsrem.com/download/carbon-aware-reinforcement-learning-for-sustainable-task-scheduling-in-edge-computing-a-review/fulltext.pdf",
-        "document_path": "data/pdfs/Carbon_Aware_Reinforcement_Learning_for_Sustainable_Task_Scheduling_in_Edge_Computing_A_Review.pdf",
+        "document_path": "data/pdfs/GD179.pdf",
         "download_status": "integrated",
         "document_id": "GD179",
         "review_status": "review"
@@ -514,7 +514,7 @@
         "openalex_id": "https://openalex.org/W7124725306",
         "source_url": "https://openalex.org/W7124725306",
         "pdf_url": "https://avantipublishers.com/index.php/tgevnie/article/download/1748/1169",
-        "document_path": "data/pdfs/Carbon_Aware_Machine_Learning_for_Energy_Efficient_Quantum_Data_Centers_Joint_Optimization_of_Worklo.pdf",
+        "document_path": "data/pdfs/GD180.pdf",
         "download_status": "integrated",
         "document_id": "GD180",
         "review_status": "keep"
@@ -529,7 +529,7 @@
         "openalex_id": "https://openalex.org/W7216043073",
         "source_url": "https://openalex.org/W7216043073",
         "pdf_url": "https://al-kindipublisher.com/index.php/jcsts/article/download/11208/9966",
-        "document_path": "data/pdfs/Carbon_Aware_Cloud_Architecture_Dynamic_Multi_Cloud_Scheduling_for_Sustainable_Computing.pdf",
+        "document_path": "data/pdfs/GD181.pdf",
         "download_status": "integrated",
         "document_id": "GD181",
         "review_status": "review"
@@ -545,7 +545,7 @@
         "openalex_id": "https://openalex.org/W7162100617",
         "source_url": "https://openalex.org/W7162100617",
         "pdf_url": "https://www.ijfmr.com/papers/2026/3/79043.pdf",
-        "document_path": "data/pdfs/Carbon_Aware_Intelligent_Scheduling_Framework_for_Energy_Efficient_Green_Cloud_Computing.pdf",
+        "document_path": "data/pdfs/GD182.pdf",
         "download_status": "integrated",
         "document_id": "GD182",
         "review_status": "review"
@@ -564,7 +564,7 @@
         "openalex_id": "https://openalex.org/W3209819948",
         "source_url": "https://openalex.org/W3209819948",
         "pdf_url": "https://arxiv.org/pdf/2110.13234",
-        "document_path": "data/pdfs/Let_s_wait_awhile_how_temporal_workload_shifting_can_reduce_carbon_emissions_in_the_cloud.pdf",
+        "document_path": "data/pdfs/GD183.pdf",
         "download_status": "integrated",
         "document_id": "GD183",
         "review_status": "keep"
@@ -583,7 +583,7 @@
         "openalex_id": "https://openalex.org/W4394923323",
         "source_url": "https://openalex.org/W4394923323",
         "pdf_url": "https://arxiv.org/pdf/2306.06502",
-        "document_path": "data/pdfs/On_the_Limitations_of_Carbon_Aware_Temporal_and_Spatial_Workload_Shifting_in_the_Cloud.pdf",
+        "document_path": "data/pdfs/GD184.pdf",
         "download_status": "integrated",
         "document_id": "GD184",
         "review_status": "review"
@@ -603,7 +603,7 @@
         "openalex_id": "https://openalex.org/W7160443609",
         "source_url": "https://openalex.org/W7160443609",
         "pdf_url": "https://arxiv.org/pdf/2605.03751",
-        "document_path": "data/pdfs/Carbon_Aware_Compute_Power_Scheduling_for_AI_Data_Centers_with_Microgrid_Prosumer_Operations.pdf",
+        "document_path": "data/pdfs/GD185.pdf",
         "download_status": "integrated",
         "document_id": "GD185",
         "review_status": "keep"
@@ -622,7 +622,7 @@
         "openalex_id": "https://openalex.org/W7154412061",
         "source_url": "https://openalex.org/W7154412061",
         "pdf_url": "https://arxiv.org/pdf/2512.07799",
-        "document_path": "data/pdfs/Quantifying_the_Carbon_Reduction_of_DAG_Workloads_A_Job_Shop_Scheduling_Perspective.pdf",
+        "document_path": "data/pdfs/GD186.pdf",
         "download_status": "integrated",
         "document_id": "GD186",
         "review_status": "review"
@@ -637,7 +637,7 @@
         "openalex_id": "https://openalex.org/W4408154015",
         "source_url": "https://openalex.org/W4408154015",
         "pdf_url": "https://ijsrcseit.com/index.php/home/article/download/CSEIT251112375/CSEIT251112375",
-        "document_path": "data/pdfs/The_Energy_Efficiency_Paradox_of_AI_Hardware_Debunking_GPU_Power_Consumption_Myths.pdf",
+        "document_path": "data/pdfs/GD187.pdf",
         "download_status": "integrated",
         "document_id": "GD187",
         "review_status": "keep"
@@ -658,7 +658,7 @@
         "openalex_id": "https://openalex.org/W7151475135",
         "source_url": "https://openalex.org/W7151475135",
         "pdf_url": "https://arxiv.org/pdf/2604.04745",
-        "document_path": "data/pdfs/The_Energy_Cost_of_Execution_Idle_in_GPU_Clusters.pdf",
+        "document_path": "data/pdfs/GD188.pdf",
         "download_status": "integrated",
         "document_id": "GD188",
         "review_status": "keep"
@@ -675,7 +675,7 @@
         "openalex_id": "https://openalex.org/W4291961336",
         "source_url": "https://openalex.org/W4291961336",
         "pdf_url": "https://arxiv.org/pdf/2208.06102",
-        "document_path": "data/pdfs/Zeus_Understanding_and_Optimizing_GPU_Energy_Consumption_of_DNN_Training.pdf",
+        "document_path": "data/pdfs/GD189.pdf",
         "download_status": "integrated",
         "document_id": "GD189",
         "review_status": "keep"
@@ -690,7 +690,7 @@
         "openalex_id": "https://openalex.org/W4406963506",
         "source_url": "https://openalex.org/W4406963506",
         "pdf_url": "https://doi.org/10.37394/23202.2024.23.46",
-        "document_path": "data/pdfs/The_Escalating_AI_s_Energy_Demands_and_the_Imperative_Need_for_Sustainable_Solutions.pdf",
+        "document_path": "data/pdfs/GD190.pdf",
         "download_status": "integrated",
         "document_id": "GD190",
         "review_status": "review"
@@ -707,7 +707,7 @@
         "openalex_id": "https://openalex.org/W7154158908",
         "source_url": "https://openalex.org/W7154158908",
         "pdf_url": "https://arxiv.org/pdf/2604.09048",
-        "document_path": "data/pdfs/Watt_Counts_Energy_Aware_Benchmark_for_Sustainable_LLM_Inference_on_Heterogeneous_GPU_Architectures.pdf",
+        "document_path": "data/pdfs/GD191.pdf",
         "download_status": "integrated",
         "document_id": "GD191",
         "review_status": "review"
@@ -726,7 +726,7 @@
         "openalex_id": "https://openalex.org/W4365601082",
         "source_url": "https://openalex.org/W4365601082",
         "pdf_url": "https://arxiv.org/pdf/2304.06381",
-        "document_path": "data/pdfs/Energy_Efficient_GPU_Clusters_Scheduling_for_Deep_Learning.pdf",
+        "document_path": "data/pdfs/GD192.pdf",
         "download_status": "integrated",
         "document_id": "GD192",
         "review_status": "keep"
@@ -765,7 +765,7 @@
         "openalex_id": "https://openalex.org/W3208860256",
         "source_url": "https://openalex.org/W3208860256",
         "pdf_url": "https://arxiv.org/pdf/2111.00364",
-        "document_path": "data/pdfs/Sustainable_AI_Environmental_Implications_Challenges_and_Opportunities.pdf",
+        "document_path": "data/pdfs/GD193.pdf",
         "download_status": "integrated",
         "document_id": "GD193",
         "review_status": "review"
@@ -784,7 +784,7 @@
         "openalex_id": "https://openalex.org/W7168834832",
         "source_url": "https://openalex.org/W7168834832",
         "pdf_url": "https://arxiv.org/pdf/2607.13443",
-        "document_path": "data/pdfs/The_Environmental_Cost_of_Digital_Sovereignty_Water_Energy_and_Emissions_Impacts_of_Sovereign_AI_Inf.pdf",
+        "document_path": "data/pdfs/GD194.pdf",
         "download_status": "integrated",
         "document_id": "GD194",
         "review_status": "keep"
@@ -802,7 +802,7 @@
         "openalex_id": "https://openalex.org/W7218118586",
         "source_url": "https://openalex.org/W7218118586",
         "pdf_url": "https://journals.mriindia.com/index.php/mjret/article/download/4038/3840",
-        "document_path": "data/pdfs/Sustainable_Artificial_Intelligence_Balancing_Performance_Energy_Consumption_and_Applications.pdf",
+        "document_path": "data/pdfs/GD195.pdf",
         "download_status": "integrated",
         "document_id": "GD195",
         "review_status": "review"
@@ -842,7 +842,7 @@
         "openalex_id": "https://openalex.org/W4409248825",
         "source_url": "https://openalex.org/W4409248825",
         "pdf_url": "https://arxiv.org/pdf/2410.12032",
-        "document_path": "data/pdfs/MLPerf_Power_Benchmarking_the_Energy_Efficiency_of_Machine_Learning_Systems_from_Watts_to_MWatts_for.pdf",
+        "document_path": "data/pdfs/GD196.pdf",
         "download_status": "integrated",
         "document_id": "GD196",
         "review_status": "keep"
@@ -859,7 +859,7 @@
         "openalex_id": "https://openalex.org/W4414829732",
         "source_url": "https://openalex.org/W4414829732",
         "pdf_url": "https://jqst.org/index.php/j/article/download/229/244",
-        "document_path": "data/pdfs/Multi_Fidelity_GPU_Cluster_Optimization_for_Probabilistic_AI_Models.pdf",
+        "document_path": "data/pdfs/GD197.pdf",
         "download_status": "integrated",
         "document_id": "GD197",
         "review_status": "keep"
@@ -889,7 +889,7 @@
         "openalex_id": "https://openalex.org/W3215168403",
         "source_url": "https://openalex.org/W3215168403",
         "pdf_url": "https://hal.science/hal-03549336v1/file/aa4dcfec-3ca5-4a73-8ac9-23d67fe53e85-author.pdf",
-        "document_path": "data/pdfs/A_survey_of_challenges_and_solutions_for_the_integration_of_renewable_energy_in_datacenters.pdf",
+        "document_path": "data/pdfs/GD198.pdf",
         "download_status": "integrated",
         "document_id": "GD198",
         "review_status": "review"
@@ -911,7 +911,7 @@
         "openalex_id": "https://openalex.org/W4360850695",
         "source_url": "https://openalex.org/W4360850695",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10311-023-01587-1.pdf",
-        "document_path": "data/pdfs/Social_environmental_and_economic_consequences_of_integrating_renewable_energies_in_the_electricity.pdf",
+        "document_path": "data/pdfs/GD199.pdf",
         "download_status": "integrated",
         "document_id": "GD199",
         "review_status": "review"
@@ -926,7 +926,7 @@
         "openalex_id": "https://openalex.org/W7172253148",
         "source_url": "https://openalex.org/W7172253148",
         "pdf_url": "https://revista.domhelder.edu.br/index.php/veredas/article/download/7579/29014",
-        "document_path": "data/pdfs/INTEGRATION_OF_BATTERY_ENERGY_STORAGE_SYSTEMS_WITH_HYBRID_POWER_GENERATION_FOR_RELIABLE_AND_LOW_EMIS.pdf",
+        "document_path": "data/pdfs/GD200.pdf",
         "download_status": "integrated",
         "document_id": "GD200",
         "review_status": "review"
@@ -942,7 +942,7 @@
         "openalex_id": "https://openalex.org/W7220167999",
         "source_url": "https://openalex.org/W7220167999",
         "pdf_url": "https://smsrj.com/index.php/smsrj/article/download/57/75",
-        "document_path": "data/pdfs/Lifecycle_Carbon_Scheduling_Balances_Solar_Power_and_Workloads_in_Urban_Edge_Microcenters_Operations.pdf",
+        "document_path": "data/pdfs/GD201.pdf",
         "download_status": "integrated",
         "document_id": "GD201",
         "review_status": "review"
@@ -958,7 +958,7 @@
         "openalex_id": "https://openalex.org/W7162209656",
         "source_url": "https://openalex.org/W7162209656",
         "pdf_url": "https://arxiv.org/pdf/2511.07090",
-        "document_path": "data/pdfs/Green_artificial_intelligence_and_its_lifecycle_hardware_and_measurement_dimensions.pdf",
+        "document_path": "data/pdfs/GD202.pdf",
         "download_status": "integrated",
         "document_id": "GD202",
         "review_status": "review"
@@ -973,7 +973,7 @@
         "openalex_id": "https://openalex.org/W7216903495",
         "source_url": "https://openalex.org/W7216903495",
         "pdf_url": "https://kuey.net/index.php/kuey/article/download/12266/9640",
-        "document_path": "data/pdfs/EMBODIED_CARBON_AS_A_FIRST_CLASS_CONSTRAINT_IN_CLOUD_NATIVE_INFRASTRUCTURE_ENGINEERING_A_LIFECYCLE_A.pdf",
+        "document_path": "data/pdfs/GD203.pdf",
         "download_status": "integrated",
         "document_id": "GD203",
         "review_status": "keep"
@@ -988,7 +988,7 @@
         "openalex_id": "https://openalex.org/W7128466516",
         "source_url": "https://openalex.org/W7128466516",
         "pdf_url": "https://www.eudoxuspress.com/index.php/pub/article/download/4823/3609",
-        "document_path": "data/pdfs/Sustainable_Cloud_Computing_Through_Hardware_Lifecycle_Optimization.pdf",
+        "document_path": "data/pdfs/GD204.pdf",
         "download_status": "integrated",
         "document_id": "GD204",
         "review_status": "keep"
@@ -1003,7 +1003,7 @@
         "openalex_id": "https://openalex.org/W7117564880",
         "source_url": "https://openalex.org/W7117564880",
         "pdf_url": "https://lorojournals.com/index.php/emsj/article/download/1721/1674",
-        "document_path": "data/pdfs/Embodied_Carbon_and_Life_Cycle_Assessment_of_Data_Centre_Structures_A_Review_of_Sustainable_Construc.pdf",
+        "document_path": "data/pdfs/GD205.pdf",
         "download_status": "integrated",
         "document_id": "GD205",
         "review_status": "keep"
@@ -1026,7 +1026,7 @@
         "openalex_id": "https://openalex.org/W4416185856",
         "source_url": "https://openalex.org/W4416185856",
         "pdf_url": "https://arxiv.org/pdf/2505.01386",
-        "document_path": "data/pdfs/CATransformers_Carbon_Aware_Transformers_Through_Joint_Model_Hardware_Optimization.pdf",
+        "document_path": "data/pdfs/GD206.pdf",
         "download_status": "integrated",
         "document_id": "GD206",
         "review_status": "review"
@@ -1042,7 +1042,7 @@
         "openalex_id": "https://openalex.org/W3177357917",
         "source_url": "https://openalex.org/W3177357917",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s43681-021-00071-2.pdf",
-        "document_path": "data/pdfs/AI_ethics_A_framework_for_measuring_embodied_carbon_in_AI_systems.pdf",
+        "document_path": "data/pdfs/GD207.pdf",
         "download_status": "integrated",
         "document_id": "GD207",
         "review_status": "review"
@@ -1057,7 +1057,7 @@
         "openalex_id": "https://openalex.org/W7197042898",
         "source_url": "https://openalex.org/W7197042898",
         "pdf_url": "https://laccei.org/LACCEI2026-Chile/full-papers/Contribution_458_final_a.pdf",
-        "document_path": "data/pdfs/Generative_AI_s_Carbon_Paradox_Balancing_Emissions_and_Climate_Mitigation_Through_Lifecycle_Optimiza.pdf",
+        "document_path": "data/pdfs/GD208.pdf",
         "download_status": "integrated",
         "document_id": "GD208",
         "review_status": "review"
@@ -1072,7 +1072,7 @@
         "openalex_id": "https://openalex.org/W2225104960",
         "source_url": "https://openalex.org/W2225104960",
         "pdf_url": "http://lup.lub.lu.se/student-papers/record/8164298/file/8164341.pdf",
-        "document_path": "data/pdfs/Embodied_Carbon_in_Buildings_investigating_drivers_and_barriers_for_the_Swedish_construction_industr.pdf",
+        "document_path": "data/pdfs/GD209.pdf",
         "download_status": "integrated",
         "document_id": "GD209",
         "review_status": "review"
@@ -1093,7 +1093,7 @@
         "openalex_id": "https://openalex.org/W3015741728",
         "source_url": "https://openalex.org/W3015741728",
         "pdf_url": "https://www.nature.com/articles/s41598-020-62030-x.pdf",
-        "document_path": "data/pdfs/Carbon_emissions_embodied_in_product_value_chains_and_the_role_of_Life_Cycle_Assessment_in_curbing_t.pdf",
+        "document_path": "data/pdfs/GD210.pdf",
         "download_status": "integrated",
         "document_id": "GD210",
         "review_status": "keep"
@@ -1109,7 +1109,7 @@
         "openalex_id": "https://openalex.org/W7220543791",
         "source_url": "https://openalex.org/W7220543791",
         "pdf_url": "http://irjas.com/index.php/sciencejournal/article/download/109/97",
-        "document_path": "data/pdfs/Embodied_Carbon_Assessment_of_Timber_Integrated_High_Rise_Housing_in_Tropical_Climates.pdf",
+        "document_path": "data/pdfs/GD211.pdf",
         "download_status": "integrated",
         "document_id": "GD211",
         "review_status": "keep"
@@ -1126,7 +1126,7 @@
         "openalex_id": "https://openalex.org/W7154757070",
         "source_url": "https://openalex.org/W7154757070",
         "pdf_url": "https://doi.org/10.5120/ijca2026926624",
-        "document_path": "data/pdfs/Generative_Multimodal_AI_Driven_Lifecycle_Assessment_and_Carbon_Optimization_of_Cloud_Infrastructure.pdf",
+        "document_path": "data/pdfs/GD212.pdf",
         "download_status": "integrated",
         "document_id": "GD212",
         "review_status": "keep"
@@ -1142,7 +1142,7 @@
         "openalex_id": "https://openalex.org/W7138887996",
         "source_url": "https://openalex.org/W7138887996",
         "pdf_url": "https://ujssh.com/index.php/ujssh/article/download/277/271",
-        "document_path": "data/pdfs/Empirical_Lifecycle_Assessment_of_Generative_AI_Inference_Carbon_Emissions_Global_Trends_and_the_Mal.pdf",
+        "document_path": "data/pdfs/GD213.pdf",
         "download_status": "integrated",
         "document_id": "GD213",
         "review_status": "keep"
@@ -1158,7 +1158,7 @@
         "openalex_id": "https://openalex.org/W7167613396",
         "source_url": "https://openalex.org/W7167613396",
         "pdf_url": "https://josrar.esrgngr.org/index.php/josrar/article/download/234/146",
-        "document_path": "data/pdfs/Deep_Learning_Enhanced_Energy_Aware_Task_Scheduling_for_Efficient_Cloud_Datacenter_Management.pdf",
+        "document_path": "data/pdfs/GD214.pdf",
         "download_status": "integrated",
         "document_id": "GD214",
         "review_status": "review"
@@ -1176,7 +1176,7 @@
         "openalex_id": "https://openalex.org/W7139975817",
         "source_url": "https://openalex.org/W7139975817",
         "pdf_url": "https://www.ijisrt.com/assets/upload/files/IJISRT26MAR972.pdf",
-        "document_path": "data/pdfs/Deep_Learning_Based_CPU_Scheduling_for_Energy_and_Time_Optimization.pdf",
+        "document_path": "data/pdfs/GD215.pdf",
         "download_status": "integrated",
         "document_id": "GD215",
         "review_status": "review"
@@ -1191,7 +1191,7 @@
         "openalex_id": "https://openalex.org/W7216678077",
         "source_url": "https://openalex.org/W7216678077",
         "pdf_url": "https://ijerst.org/index.php/ijerst/article/download/4669/4311",
-        "document_path": "data/pdfs/Energy_Efficient_Workload_Scheduling_Using_Deep_Reinforcement_Learning_in_Cloud_Computing.pdf",
+        "document_path": "data/pdfs/GD216.pdf",
         "download_status": "integrated",
         "document_id": "GD216",
         "review_status": "keep"
@@ -1212,7 +1212,7 @@
         "openalex_id": "https://openalex.org/W4399657463",
         "source_url": "https://openalex.org/W4399657463",
         "pdf_url": "https://arxiv.org/pdf/2406.08115",
-        "document_path": "data/pdfs/Resource_Allocation_and_Workload_Scheduling_for_Large_Scale_Distributed_Deep_Learning_A_Survey.pdf",
+        "document_path": "data/pdfs/GD217.pdf",
         "download_status": "integrated",
         "document_id": "GD217",
         "review_status": "review"
@@ -1228,7 +1228,7 @@
         "openalex_id": "https://openalex.org/W7160861967",
         "source_url": "https://openalex.org/W7160861967",
         "pdf_url": "https://scipublication.com/index.php/JACS/article/download/340/309",
-        "document_path": "data/pdfs/Multi_Objective_Deep_Reinforcement_Learning_for_Carbon_Aware_Spatiotemporal_Workload_Scheduling_in_G.pdf",
+        "document_path": "data/pdfs/GD218.pdf",
         "download_status": "integrated",
         "document_id": "GD218",
         "review_status": "keep"
@@ -1247,7 +1247,7 @@
         "openalex_id": "https://openalex.org/W7118168847",
         "source_url": "https://openalex.org/W7118168847",
         "pdf_url": "https://submissions.adroidjournals.com/index.php/ijssic/article/download/201/101",
-        "document_path": "data/pdfs/Energy_Aware_Intelligent_Computing_Framework_for_Sustainable_AI_Workloads_in_Next_Generation_Smart_S.pdf",
+        "document_path": "data/pdfs/GD219.pdf",
         "download_status": "integrated",
         "document_id": "GD219",
         "review_status": "review"

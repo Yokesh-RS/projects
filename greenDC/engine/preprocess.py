@@ -1,69 +1,44 @@
 import re
-import unicodedata
 
-from engine.porter import stem
+from nltk.stem import PorterStemmer
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
-STOPWORDS = set("""
-a about above after again against all also am an and any are as at be because
-been before being below between both but by can cannot could did do does doing
-down during each et al etc few for from further had has have having he her here
-hers herself him himself his how however i if in into is it its itself just me
-more most my myself no nor not of off on once only or other our ours ourselves
-out over own same she should so some such than that the their theirs them
-themselves then there these they this those through thus to too under until up
-upon us use used using very via was we were what when where which while who whom
-why will with within without would yet you your yours yourself yourselves
-fig figure table eq section paper doi http https www org com vol pp
-""".split())
-
-TOKEN_PATTERN = re.compile(r"[a-z0-9]+(?:\.[0-9]+)?")
-REFERENCES_PATTERN = re.compile(
-    r"\n\s*(?:\d+\.?\s*)?(references|bibliography|literature cited)\s*\n",
-    re.IGNORECASE
-)
+stemmer = PorterStemmer()
+stem_cache = {}
 
 
 def clean_text(text):
-    # NFKC also expands PDF ligatures like "ﬁ" into "fi".
-    text = unicodedata.normalize("NFKC", text)
+    # Join words that the PDF split across two lines, e.g. "effi-\nciency"
+    text = text.replace("-\n", "")
 
-    # PDFs break words across lines: "effi-\nciency" -> "efficiency"
-    text = re.sub(r"(\w)-\s*\n\s*(\w)", r"\1\2", text)
+    # Remove the reference list at the end of the paper
+    position = text.lower().rfind("\nreferences")
+    if position > len(text) * 0.6:
+        text = text[:position]
 
-    # The reference list adds lots of author names and venue words that are
-    # not about the paper's topic, so cut it if it is near the end.
-    matches = list(REFERENCES_PATTERN.finditer(text))
-    if matches and matches[-1].start() > 0.6 * len(text):
-        text = text[:matches[-1].start()]
-
-    return re.sub(r"\s+", " ", text).strip()
+    # Replace newlines and repeated spaces with single spaces
+    return " ".join(text.split())
 
 
-def tokenize(text):
-    return TOKEN_PATTERN.findall(text.lower())
-
-
-def normalize(token):
-    if token in STOPWORDS or len(token) < 2 or len(token) > 30:
-        return None
-    # Keep 4-digit years, drop page numbers and other stray numbers.
-    if token.isdigit() and len(token) != 4:
-        return None
-    if token.isalpha():
-        return stem(token)
-    return token
-
-
-def analyze(text):
-    # Positions count every token, including dropped stopwords, so that
-    # phrase queries still need the words to be adjacent in the original text.
-    terms = []
-    for position, token in enumerate(tokenize(text)):
-        term = normalize(token)
-        if term:
-            terms.append((term, position))
-    return terms
+def stem(word):
+    # Stemming is slow, so remember words we have already stemmed
+    if word not in stem_cache:
+        stem_cache[word] = stemmer.stem(word)
+    return stem_cache[word]
 
 
 def get_terms(text):
-    return [term for term, _ in analyze(text)]
+    words = re.findall(r"[a-z0-9]+", text.lower())
+
+    terms = []
+    for word in words:
+        if word in ENGLISH_STOP_WORDS:
+            continue
+        if len(word) < 2:
+            continue
+        # Keep years like 2023 but skip page numbers and other numbers
+        if word.isdigit() and len(word) != 4:
+            continue
+        terms.append(stem(word))
+
+    return terms

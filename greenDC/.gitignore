@@ -1,15 +1,2 @@
-# Local Python environment
-.venv/
-__pycache__/
-*.pyc
-
-# Secrets
-.env
-
-# Temporary integration artifacts
+# Temporary download folder
 /data/new_pdfs/
-/data/new_documents.json
-/data/*review_report.csv
-
-/data/pdfs/
-greenDC/test_search.py

@@ -1,0 +1,1191 @@
+{
+  "Q01": {
+    "query": "What are the most effective strategies for reducing energy consumption in data centres?",
+    "category": "Energy efficiency and optimisation",
+    "relevant": {
+      "GD22": 2,
+      "GD56": 2,
+      "GD36": 2,
+      "GD14": 2,
+      "GD19": 2,
+      "GD29": 2,
+      "GD158": 2,
+      "GD93": 2,
+      "GD11": 1,
+      "GD129": 1,
+      "GD134": 1,
+      "GD10": 1,
+      "GD156": 1,
+      "GD94": 1,
+      "GD157": 1,
+      "GD144": 1,
+      "GD92": 1,
+      "GD102": 1,
+      "GD152": 1,
+      "GD2": 1,
+      "GD60": 1,
+      "GD167": 1,
+      "GD161": 1,
+      "GD13": 1,
+      "GD35": 1,
+      "GD204": 1
+    }
+  },
+  "Q02": {
+    "query": "How can data centres improve Power Usage Effectiveness (PUE)?",
+    "category": "Energy efficiency and optimisation",
+    "relevant": {
+      "GD152": 2,
+      "GD56": 2,
+      "GD36": 1,
+      "GD14": 1,
+      "GD12": 1,
+      "GD34": 1,
+      "GD144": 1,
+      "GD149": 1,
+      "GD93": 1,
+      "GD50": 1,
+      "GD1": 1,
+      "GD87": 1,
+      "GD161": 1,
+      "GD44": 1,
+      "GD48": 1,
+      "GD68": 1
+    }
+  },
+  "Q03": {
+    "query": "What energy-efficient server architectures are suitable for modern data centres?",
+    "category": "Energy efficiency and optimisation",
+    "relevant": {
+      "GD1": 2,
+      "GD25": 1,
+      "GD151": 1,
+      "GD29": 1,
+      "GD42": 1,
+      "GD187": 1,
+      "GD56": 1,
+      "GD36": 1,
+      "GD50": 1,
+      "GD53": 1,
+      "GD14": 1,
+      "GD28": 1,
+      "GD57": 1,
+      "GD191": 1,
+      "GD26": 1,
+      "GD154": 1
+    }
+  },
+  "Q04": {
+    "query": "How does server virtualisation help reduce electricity consumption?",
+    "category": "Energy efficiency and optimisation",
+    "relevant": {
+      "GD29": 2,
+      "GD92": 2,
+      "GD9": 2,
+      "GD15": 2,
+      "GD71": 2,
+      "GD157": 2,
+      "GD156": 1,
+      "GD53": 1,
+      "GD118": 1,
+      "GD19": 1,
+      "GD30": 1,
+      "GD122": 1,
+      "GD55": 1,
+      "GD94": 1,
+      "GD45": 1,
+      "GD11": 1,
+      "GD10": 1
+    }
+  },
+  "Q05": {
+    "query": "What techniques can reduce idle server energy consumption in large-scale data centres?",
+    "category": "Energy efficiency and optimisation",
+    "relevant": {
+      "GD94": 2,
+      "GD29": 2,
+      "GD188": 2,
+      "GD71": 2,
+      "GD48": 2,
+      "GD15": 1,
+      "GD9": 1,
+      "GD157": 1,
+      "GD11": 1,
+      "GD19": 1,
+      "GD30": 1,
+      "GD10": 1,
+      "GD55": 1,
+      "GD53": 1,
+      "GD56": 1,
+      "GD146": 1,
+      "GD22": 1
+    }
+  },
+  "Q06": {
+    "query": "How does dynamic power management improve data centre energy efficiency?",
+    "category": "Energy efficiency and optimisation",
+    "relevant": {
+      "GD66": 2,
+      "GD11": 2,
+      "GD158": 2,
+      "GD55": 2,
+      "GD15": 1,
+      "GD10": 1,
+      "GD118": 1,
+      "GD156": 1,
+      "GD48": 1,
+      "GD9": 1,
+      "GD22": 1,
+      "GD29": 1,
+      "GD53": 1,
+      "GD56": 1,
+      "GD129": 1,
+      "GD74": 1,
+      "GD151": 1,
+      "GD60": 1,
+      "GD2": 1
+    }
+  },
+  "Q07": {
+    "query": "What is the impact of hardware utilisation on overall data centre energy consumption?",
+    "category": "Energy efficiency and optimisation",
+    "relevant": {
+      "GD93": 2,
+      "GD157": 2,
+      "GD29": 2,
+      "GD30": 1,
+      "GD188": 1,
+      "GD48": 1,
+      "GD11": 1,
+      "GD129": 1,
+      "GD19": 1,
+      "GD118": 1,
+      "GD94": 1,
+      "GD22": 1,
+      "GD187": 1,
+      "GD18": 1,
+      "GD14": 1,
+      "GD156": 1,
+      "GD215": 1,
+      "GD152": 1
+    }
+  },
+  "Q08": {
+    "query": "How can workload consolidation reduce the energy requirements of data centres?",
+    "category": "Energy efficiency and optimisation",
+    "relevant": {
+      "GD29": 2,
+      "GD94": 2,
+      "GD15": 2,
+      "GD71": 2,
+      "GD9": 2,
+      "GD10": 1,
+      "GD19": 1,
+      "GD92": 1,
+      "GD156": 1,
+      "GD182": 1,
+      "GD74": 1,
+      "GD176": 1,
+      "GD183": 1,
+      "GD118": 1,
+      "GD57": 1,
+      "GD14": 1,
+      "GD45": 1,
+      "GD11": 1
+    }
+  },
+  "Q09": {
+    "query": "What are the differences between energy-efficient CPUs and conventional server processors?",
+    "category": "Energy efficiency and optimisation",
+    "relevant": {
+      "GD154": 1,
+      "GD187": 1,
+      "GD191": 1,
+      "GD196": 1,
+      "GD28": 1,
+      "GD55": 1
+    }
+  },
+  "Q10": {
+    "query": "How can data centre operators measure and monitor energy efficiency?",
+    "category": "Energy efficiency and optimisation",
+    "relevant": {
+      "GD34": 2,
+      "GD12": 2,
+      "GD152": 2,
+      "GD42": 2,
+      "GD87": 2,
+      "GD101": 1,
+      "GD196": 1,
+      "GD60": 1,
+      "GD48": 1,
+      "GD56": 1,
+      "GD36": 1,
+      "GD158": 1,
+      "GD14": 1,
+      "GD202": 1
+    }
+  },
+  "Q11": {
+    "query": "What are the challenges of improving energy efficiency in hyperscale data centres?",
+    "category": "Energy efficiency and optimisation",
+    "relevant": {
+      "GD167": 2,
+      "GD14": 2,
+      "GD36": 2,
+      "GD38": 2,
+      "GD134": 1,
+      "GD13": 1,
+      "GD126": 1,
+      "GD93": 1,
+      "GD56": 1,
+      "GD50": 1,
+      "GD19": 1,
+      "GD198": 1,
+      "GD204": 1,
+      "GD161": 1,
+      "GD22": 1,
+      "GD30": 1
+    }
+  },
+  "Q12": {
+    "query": "How can waste heat from data centres be recovered and reused?",
+    "category": "Energy efficiency and optimisation",
+    "relevant": {
+      "GD134": 2,
+      "GD54": 2,
+      "GD32": 2,
+      "GD160": 2,
+      "GD56": 1,
+      "GD166": 1,
+      "GD50": 1,
+      "GD68": 1,
+      "GD69": 1,
+      "GD198": 1,
+      "GD149": 1,
+      "GD153": 1
+    }
+  },
+  "Q13": {
+    "query": "How can data centres reduce water consumption while maintaining effective cooling?",
+    "category": "Cooling technologies and water consumption",
+    "relevant": {
+      "GD167": 2,
+      "GD44": 2,
+      "GD171": 2,
+      "GD170": 2,
+      "GD56": 1,
+      "GD152": 1,
+      "GD173": 1,
+      "GD149": 1,
+      "GD161": 1,
+      "GD162": 1,
+      "GD164": 1,
+      "GD194": 1,
+      "GD68": 1
+    }
+  },
+  "Q14": {
+    "query": "What are the advantages of liquid cooling compared with traditional air cooling?",
+    "category": "Cooling technologies and water consumption",
+    "relevant": {
+      "GD149": 2,
+      "GD164": 2,
+      "GD161": 2,
+      "GD162": 2,
+      "GD160": 2,
+      "GD165": 2,
+      "GD163": 2,
+      "GD50": 1,
+      "GD56": 1,
+      "GD144": 1,
+      "GD166": 1,
+      "GD171": 1,
+      "GD75": 1,
+      "GD170": 1
+    }
+  },
+  "Q15": {
+    "query": "How does direct-to-chip liquid cooling improve data centre energy efficiency?",
+    "category": "Cooling technologies and water consumption",
+    "relevant": {
+      "GD161": 2,
+      "GD160": 2,
+      "GD149": 1,
+      "GD164": 1,
+      "GD163": 1,
+      "GD165": 1,
+      "GD162": 1,
+      "GD56": 1,
+      "GD50": 1,
+      "GD166": 1,
+      "GD171": 1
+    }
+  },
+  "Q16": {
+    "query": "What is the environmental impact of evaporative cooling in data centres?",
+    "category": "Cooling technologies and water consumption",
+    "relevant": {
+      "GD167": 2,
+      "GD170": 2,
+      "GD194": 2,
+      "GD56": 1,
+      "GD152": 1,
+      "GD44": 1,
+      "GD171": 1,
+      "GD173": 1,
+      "GD75": 1
+    }
+  },
+  "Q17": {
+    "query": "How do free cooling technologies reduce electricity consumption?",
+    "category": "Cooling technologies and water consumption",
+    "relevant": {
+      "GD66": 2,
+      "GD56": 2,
+      "GD68": 2,
+      "GD144": 1,
+      "GD50": 1,
+      "GD30": 1,
+      "GD84": 1,
+      "GD27": 1,
+      "GD22": 1,
+      "GD32": 1
+    }
+  },
+  "Q18": {
+    "query": "What cooling technologies are suitable for high-density GPU servers?",
+    "category": "Cooling technologies and water consumption",
+    "relevant": {
+      "GD163": 2,
+      "GD149": 2,
+      "GD166": 2,
+      "GD164": 2,
+      "GD162": 1,
+      "GD161": 1,
+      "GD160": 1,
+      "GD165": 1,
+      "GD50": 1,
+      "GD75": 1,
+      "GD171": 1,
+      "GD170": 1
+    }
+  },
+  "Q19": {
+    "query": "How can data centres optimise cooling systems using AI and machine learning?",
+    "category": "Cooling technologies and water consumption",
+    "relevant": {
+      "GD158": 2,
+      "GD166": 2,
+      "GD165": 2,
+      "GD180": 2,
+      "GD20": 1,
+      "GD35": 1,
+      "GD113": 1,
+      "GD129": 1,
+      "GD68": 1
+    }
+  },
+  "Q20": {
+    "query": "What is Water Usage Effectiveness (WUE), and how is it measured?",
+    "category": "Cooling technologies and water consumption",
+    "relevant": {
+      "GD68": 2,
+      "GD173": 2,
+      "GD170": 2,
+      "GD167": 2,
+      "GD44": 2,
+      "GD171": 1,
+      "GD202": 1,
+      "GD31": 1,
+      "GD84": 1,
+      "GD194": 1
+    }
+  },
+  "Q21": {
+    "query": "How does climate and geographical location influence data centre cooling requirements?",
+    "category": "Cooling technologies and water consumption",
+    "relevant": {
+      "GD27": 2,
+      "GD35": 2,
+      "GD68": 2,
+      "GD66": 1,
+      "GD56": 1,
+      "GD167": 1,
+      "GD170": 1,
+      "GD93": 1,
+      "GD144": 1,
+      "GD134": 1,
+      "GD173": 1,
+      "GD171": 1
+    }
+  },
+  "Q22": {
+    "query": "What are the environmental trade-offs between air cooling, liquid cooling and immersion cooling?",
+    "category": "Cooling technologies and water consumption",
+    "relevant": {
+      "GD162": 2,
+      "GD164": 2,
+      "GD149": 2,
+      "GD50": 2,
+      "GD75": 1,
+      "GD170": 1,
+      "GD161": 1,
+      "GD165": 1,
+      "GD163": 1,
+      "GD160": 1,
+      "GD56": 1,
+      "GD167": 1,
+      "GD171": 1
+    }
+  },
+  "Q23": {
+    "query": "How can data centres reduce their carbon footprint?",
+    "category": "Carbon emissions and renewable energy",
+    "relevant": {
+      "GD102": 2,
+      "GD177": 2,
+      "GD183": 2,
+      "GD176": 2,
+      "GD74": 2,
+      "GD203": 2,
+      "GD205": 2,
+      "GD182": 2,
+      "GD36": 1,
+      "GD53": 1,
+      "GD204": 1,
+      "GD118": 1,
+      "GD126": 1,
+      "GD198": 1,
+      "GD9": 1,
+      "GD29": 1,
+      "GD24": 1,
+      "GD30": 1
+    }
+  },
+  "Q24": {
+    "query": "What renewable energy sources are most suitable for powering data centres?",
+    "category": "Carbon emissions and renewable energy",
+    "relevant": {
+      "GD198": 2,
+      "GD200": 2,
+      "GD69": 2,
+      "GD53": 2,
+      "GD50": 2,
+      "GD110": 2,
+      "GD134": 1,
+      "GD153": 1,
+      "GD83": 1,
+      "GD21": 1,
+      "GD119": 1,
+      "GD201": 1,
+      "GD74": 1,
+      "GD177": 1,
+      "GD183": 1,
+      "GD27": 1,
+      "GD13": 1,
+      "GD32": 1
+    }
+  },
+  "Q25": {
+    "query": "How can solar and wind energy be integrated into data centre operations?",
+    "category": "Carbon emissions and renewable energy",
+    "relevant": {
+      "GD198": 2,
+      "GD69": 2,
+      "GD200": 2,
+      "GD53": 2,
+      "GD43": 2,
+      "GD52": 2,
+      "GD185": 2,
+      "GD134": 1,
+      "GD50": 1,
+      "GD83": 1,
+      "GD110": 1,
+      "GD153": 1,
+      "GD201": 1,
+      "GD74": 1,
+      "GD183": 1,
+      "GD21": 1,
+      "GD119": 1
+    }
+  },
+  "Q26": {
+    "query": "What is the impact of electricity grid carbon intensity on data centre emissions?",
+    "category": "Carbon emissions and renewable energy",
+    "relevant": {
+      "GD183": 2,
+      "GD178": 2,
+      "GD177": 2,
+      "GD184": 2,
+      "GD74": 2,
+      "GD174": 2,
+      "GD175": 2,
+      "GD218": 2,
+      "GD182": 1,
+      "GD181": 1,
+      "GD179": 1,
+      "GD203": 1,
+      "GD186": 1,
+      "GD176": 1,
+      "GD194": 1,
+      "GD180": 1,
+      "GD202": 1,
+      "GD213": 1
+    }
+  },
+  "Q27": {
+    "query": "How can data centres achieve carbon-neutral or net-zero operations?",
+    "category": "Carbon emissions and renewable energy",
+    "relevant": {
+      "GD205": 2,
+      "GD102": 2,
+      "GD198": 2,
+      "GD153": 1,
+      "GD13": 1,
+      "GD184": 1,
+      "GD75": 1,
+      "GD16": 1,
+      "GD126": 1,
+      "GD207": 1,
+      "GD212": 1,
+      "GD203": 1,
+      "GD54": 1,
+      "GD177": 1,
+      "GD183": 1,
+      "GD32": 1
+    }
+  },
+  "Q28": {
+    "query": "What are the challenges of using renewable energy for 24/7 data centre operations?",
+    "category": "Carbon emissions and renewable energy",
+    "relevant": {
+      "GD198": 2,
+      "GD43": 2,
+      "GD52": 2,
+      "GD200": 1,
+      "GD153": 1,
+      "GD50": 1,
+      "GD30": 1,
+      "GD69": 1,
+      "GD83": 1,
+      "GD53": 1,
+      "GD134": 1,
+      "GD119": 1,
+      "GD110": 1,
+      "GD185": 1
+    }
+  },
+  "Q29": {
+    "query": "How does Power Purchase Agreement (PPA) procurement support sustainable data centres?",
+    "category": "Carbon emissions and renewable energy",
+    "relevant": {
+      "GD50": 2,
+      "GD198": 1,
+      "GD84": 1,
+      "GD21": 1,
+      "GD190": 1,
+      "GD32": 1
+    }
+  },
+  "Q30": {
+    "query": "What methods are used to calculate Scope 1, Scope 2 and Scope 3 emissions in data centres?",
+    "category": "Carbon emissions and renewable energy",
+    "relevant": {
+      "GD202": 2,
+      "GD13": 2,
+      "GD205": 2,
+      "GD184": 1,
+      "GD75": 1,
+      "GD102": 1,
+      "GD193": 1,
+      "GD203": 1,
+      "GD212": 1
+    }
+  },
+  "Q31": {
+    "query": "How does battery energy storage support renewable-powered data centres?",
+    "category": "Carbon emissions and renewable energy",
+    "relevant": {
+      "GD200": 2,
+      "GD198": 2,
+      "GD83": 2,
+      "GD52": 2,
+      "GD43": 2,
+      "GD33": 1,
+      "GD153": 1,
+      "GD185": 1,
+      "GD50": 1,
+      "GD69": 1,
+      "GD134": 1
+    }
+  },
+  "Q32": {
+    "query": "How can operators measure the carbon footprint of individual computing workloads?",
+    "category": "Carbon emissions and renewable energy",
+    "relevant": {
+      "GD202": 2,
+      "GD203": 2,
+      "GD186": 2,
+      "GD180": 1,
+      "GD175": 1,
+      "GD174": 1,
+      "GD181": 1,
+      "GD177": 1,
+      "GD183": 1,
+      "GD193": 1,
+      "GD196": 1,
+      "GD188": 1,
+      "GD206": 1,
+      "GD212": 1
+    }
+  },
+  "Q33": {
+    "query": "How can the energy consumption of AI model training be reduced?",
+    "category": "AI, machine learning and GPU infrastructure",
+    "relevant": {
+      "GD189": 2,
+      "GD192": 2,
+      "GD146": 2,
+      "GD193": 2,
+      "GD174": 2,
+      "GD37": 1,
+      "GD58": 1,
+      "GD195": 1,
+      "GD190": 1,
+      "GD196": 1,
+      "GD187": 1,
+      "GD217": 1,
+      "GD111": 1,
+      "GD7": 1,
+      "GD6": 1,
+      "GD206": 1,
+      "GD202": 1,
+      "GD219": 1
+    }
+  },
+  "Q34": {
+    "query": "What techniques can reduce the energy consumption of large language model inference?",
+    "category": "AI, machine learning and GPU infrastructure",
+    "relevant": {
+      "GD191": 2,
+      "GD190": 2,
+      "GD196": 2,
+      "GD174": 1,
+      "GD58": 1,
+      "GD37": 1,
+      "GD193": 1,
+      "GD202": 1,
+      "GD213": 1,
+      "GD206": 1,
+      "GD187": 1,
+      "GD195": 1,
+      "GD188": 1
+    }
+  },
+  "Q35": {
+    "query": "How does GPU utilisation affect the energy efficiency of AI data centres?",
+    "category": "AI, machine learning and GPU infrastructure",
+    "relevant": {
+      "GD188": 2,
+      "GD187": 2,
+      "GD192": 2,
+      "GD191": 2,
+      "GD189": 1,
+      "GD196": 1,
+      "GD217": 1,
+      "GD146": 1,
+      "GD193": 1,
+      "GD154": 1,
+      "GD202": 1
+    }
+  },
+  "Q36": {
+    "query": "What are the environmental impacts of training large-scale deep learning models?",
+    "category": "AI, machine learning and GPU infrastructure",
+    "relevant": {
+      "GD193": 2,
+      "GD190": 2,
+      "GD202": 2,
+      "GD58": 2,
+      "GD195": 1,
+      "GD37": 1,
+      "GD89": 1,
+      "GD206": 1,
+      "GD207": 1,
+      "GD189": 1,
+      "GD192": 1,
+      "GD111": 1,
+      "GD7": 1,
+      "GD217": 1,
+      "GD196": 1,
+      "GD213": 1
+    }
+  },
+  "Q37": {
+    "query": "How can AI workloads be scheduled to minimise energy consumption?",
+    "category": "AI, machine learning and GPU infrastructure",
+    "relevant": {
+      "GD146": 2,
+      "GD192": 2,
+      "GD174": 2,
+      "GD219": 2,
+      "GD185": 2,
+      "GD217": 2,
+      "GD176": 1,
+      "GD175": 1,
+      "GD216": 1,
+      "GD214": 1,
+      "GD74": 1,
+      "GD182": 1,
+      "GD178": 1,
+      "GD218": 1,
+      "GD189": 1
+    }
+  },
+  "Q38": {
+    "query": "How does model quantisation contribute to energy-efficient AI inference?",
+    "category": "AI, machine learning and GPU infrastructure",
+    "relevant": {
+      "GD174": 2,
+      "GD202": 1,
+      "GD196": 1,
+      "GD190": 1,
+      "GD58": 1,
+      "GD193": 1,
+      "GD37": 1,
+      "GD191": 1,
+      "GD206": 1
+    }
+  },
+  "Q39": {
+    "query": "What is the relationship between GPU memory utilisation and energy consumption?",
+    "category": "AI, machine learning and GPU infrastructure",
+    "relevant": {
+      "GD191": 2,
+      "GD189": 1,
+      "GD188": 1,
+      "GD187": 1,
+      "GD192": 1,
+      "GD217": 1,
+      "GD154": 1
+    }
+  },
+  "Q40": {
+    "query": "How can carbon-aware workload scheduling reduce emissions in AI infrastructure?",
+    "category": "AI, machine learning and GPU infrastructure",
+    "relevant": {
+      "GD174": 2,
+      "GD185": 2,
+      "GD218": 2,
+      "GD178": 2,
+      "GD176": 2,
+      "GD183": 2,
+      "GD175": 2,
+      "GD180": 2,
+      "GD182": 1,
+      "GD181": 1,
+      "GD74": 1,
+      "GD179": 1,
+      "GD184": 1,
+      "GD186": 1,
+      "GD177": 1,
+      "GD206": 1
+    }
+  },
+  "Q41": {
+    "query": "What are the sustainability challenges associated with expanding AI computing infrastructure?",
+    "category": "AI, machine learning and GPU infrastructure",
+    "relevant": {
+      "GD190": 2,
+      "GD193": 2,
+      "GD194": 2,
+      "GD170": 2,
+      "GD58": 1,
+      "GD37": 1,
+      "GD167": 1,
+      "GD195": 1,
+      "GD89": 1,
+      "GD202": 1,
+      "GD212": 1,
+      "GD75": 1,
+      "GD171": 1,
+      "GD213": 1,
+      "GD207": 1
+    }
+  },
+  "Q42": {
+    "query": "How can data centre operators balance AI performance, energy consumption and cooling requirements?",
+    "category": "AI, machine learning and GPU infrastructure",
+    "relevant": {
+      "GD185": 2,
+      "GD180": 2,
+      "GD166": 2,
+      "GD158": 2,
+      "GD163": 1,
+      "GD167": 1,
+      "GD171": 1,
+      "GD149": 1,
+      "GD170": 1,
+      "GD174": 1,
+      "GD20": 1,
+      "GD56": 1,
+      "GD190": 1,
+      "GD165": 1
+    }
+  },
+  "Q43": {
+    "query": "What are the key sustainability metrics used to evaluate green data centres?",
+    "category": "Sustainability, operations and trade-offs",
+    "relevant": {
+      "GD12": 2,
+      "GD34": 2,
+      "GD42": 2,
+      "GD152": 2,
+      "GD87": 2,
+      "GD31": 1,
+      "GD3": 1,
+      "GD47": 1,
+      "GD48": 1,
+      "GD68": 1,
+      "GD173": 1,
+      "GD44": 1,
+      "GD202": 1,
+      "GD13": 1,
+      "GD36": 1,
+      "GD14": 1,
+      "GD56": 1
+    }
+  },
+  "Q44": {
+    "query": "How can data centres balance energy efficiency and water conservation?",
+    "category": "Sustainability, operations and trade-offs",
+    "relevant": {
+      "GD167": 2,
+      "GD44": 2,
+      "GD170": 2,
+      "GD56": 2,
+      "GD171": 1,
+      "GD173": 1,
+      "GD152": 1,
+      "GD68": 1,
+      "GD194": 1,
+      "GD54": 1,
+      "GD149": 1
+    }
+  },
+  "Q45": {
+    "query": "What are the environmental impacts of electronic waste generated by data centres?",
+    "category": "Sustainability, operations and trade-offs",
+    "relevant": {
+      "GD96": 2,
+      "GD204": 2,
+      "GD202": 1,
+      "GD19": 1,
+      "GD207": 1,
+      "GD58": 1,
+      "GD203": 1,
+      "GD54": 1,
+      "GD24": 1
+    }
+  },
+  "Q46": {
+    "query": "How can data centre operators extend server hardware lifespan to improve sustainability?",
+    "category": "Sustainability, operations and trade-offs",
+    "relevant": {
+      "GD204": 2,
+      "GD203": 2,
+      "GD20": 2,
+      "GD202": 1,
+      "GD213": 1,
+      "GD206": 1,
+      "GD96": 1,
+      "GD161": 1,
+      "GD207": 1
+    }
+  },
+  "Q47": {
+    "query": "What are the main barriers to implementing green data centre technologies?",
+    "category": "Sustainability, operations and trade-offs",
+    "relevant": {
+      "GD17": 2,
+      "GD13": 2,
+      "GD36": 2,
+      "GD14": 2,
+      "GD38": 2,
+      "GD27": 1,
+      "GD72": 1,
+      "GD47": 1,
+      "GD3": 1,
+      "GD30": 1,
+      "GD4": 1
+    }
+  },
+  "Q48": {
+    "query": "How do green building standards influence data centre design and construction?",
+    "category": "Sustainability, operations and trade-offs",
+    "relevant": {
+      "GD3": 2,
+      "GD205": 2,
+      "GD13": 1,
+      "GD27": 1,
+      "GD87": 1,
+      "GD54": 1,
+      "GD25": 1,
+      "GD47": 1,
+      "GD32": 1
+    }
+  },
+  "Q49": {
+    "query": "What international standards and frameworks guide sustainable data centre operations?",
+    "category": "Sustainability, operations and trade-offs",
+    "relevant": {
+      "GD87": 2,
+      "GD3": 2,
+      "GD126": 1,
+      "GD31": 1,
+      "GD13": 1,
+      "GD171": 1,
+      "GD144": 1,
+      "GD152": 1,
+      "GD34": 1,
+      "GD12": 1,
+      "GD205": 1,
+      "GD134": 1,
+      "GD48": 1
+    }
+  },
+  "Q50": {
+    "query": "How can data centres improve resource efficiency throughout their lifecycle?",
+    "category": "Sustainability, operations and trade-offs",
+    "relevant": {
+      "GD204": 2,
+      "GD212": 2,
+      "GD203": 2,
+      "GD205": 2,
+      "GD202": 1,
+      "GD213": 1,
+      "GD96": 1,
+      "GD167": 1,
+      "GD54": 1,
+      "GD89": 1,
+      "GD208": 1,
+      "GD207": 1,
+      "GD50": 1,
+      "GD32": 1
+    }
+  },
+  "Q51": {
+    "query": "What is the relationship between data centre location and environmental sustainability?",
+    "category": "Sustainability, operations and trade-offs",
+    "relevant": {
+      "GD35": 2,
+      "GD27": 2,
+      "GD173": 2,
+      "GD170": 2,
+      "GD194": 2,
+      "GD213": 2,
+      "GD171": 1,
+      "GD167": 1,
+      "GD126": 1,
+      "GD178": 1,
+      "GD218": 1,
+      "GD184": 1,
+      "GD100": 1,
+      "GD21": 1,
+      "GD93": 1,
+      "GD134": 1,
+      "GD13": 1
+    }
+  },
+  "Q52": {
+    "query": "How can operators evaluate the environmental and financial costs of sustainable data centre investments?",
+    "category": "Sustainability, operations and trade-offs",
+    "relevant": {
+      "GD72": 2,
+      "GD47": 2,
+      "GD13": 1,
+      "GD50": 1,
+      "GD198": 1,
+      "GD200": 1,
+      "GD84": 1,
+      "GD83": 1,
+      "GD204": 1,
+      "GD212": 1,
+      "GD126": 1,
+      "GD93": 1
+    }
+  },
+  "Q53": {
+    "query": "Which cooling technologies reduce electricity consumption without significantly increasing water usage?",
+    "category": "Advanced, comparative and multi-constraint queries",
+    "relevant": {
+      "GD167": 2,
+      "GD170": 2,
+      "GD149": 2,
+      "GD56": 2,
+      "GD44": 2,
+      "GD68": 2,
+      "GD162": 1,
+      "GD164": 1,
+      "GD160": 1,
+      "GD161": 1,
+      "GD66": 1,
+      "GD171": 1,
+      "GD194": 1,
+      "GD173": 1,
+      "GD144": 1
+    }
+  },
+  "Q54": {
+    "query": "How can AI data centres reduce carbon emissions without compromising model performance?",
+    "category": "Advanced, comparative and multi-constraint queries",
+    "relevant": {
+      "GD174": 2,
+      "GD206": 2,
+      "GD185": 2,
+      "GD176": 2,
+      "GD178": 2,
+      "GD37": 1,
+      "GD58": 1,
+      "GD193": 1,
+      "GD195": 1,
+      "GD208": 1,
+      "GD202": 1,
+      "GD180": 1,
+      "GD183": 1,
+      "GD218": 1,
+      "GD175": 1,
+      "GD7": 1,
+      "GD111": 1,
+      "GD189": 1
+    }
+  },
+  "Q55": {
+    "query": "What strategies can reduce GPU inference energy consumption while maintaining acceptable latency?",
+    "category": "Advanced, comparative and multi-constraint queries",
+    "relevant": {
+      "GD191": 2,
+      "GD206": 2,
+      "GD188": 1,
+      "GD187": 1,
+      "GD196": 1,
+      "GD174": 1,
+      "GD190": 1,
+      "GD202": 1,
+      "GD219": 1,
+      "GD189": 1,
+      "GD217": 1
+    }
+  },
+  "Q56": {
+    "query": "How can renewable energy availability influence the scheduling of computational workloads?",
+    "category": "Advanced, comparative and multi-constraint queries",
+    "relevant": {
+      "GD183": 2,
+      "GD198": 2,
+      "GD74": 2,
+      "GD177": 2,
+      "GD178": 2,
+      "GD43": 2,
+      "GD52": 2,
+      "GD175": 1,
+      "GD182": 1,
+      "GD181": 1,
+      "GD184": 1,
+      "GD185": 1,
+      "GD186": 1,
+      "GD146": 1,
+      "GD218": 1,
+      "GD176": 1,
+      "GD110": 1,
+      "GD69": 1,
+      "GD55": 1
+    }
+  },
+  "Q57": {
+    "query": "What are the trade-offs between liquid cooling efficiency, water consumption and infrastructure costs?",
+    "category": "Advanced, comparative and multi-constraint queries",
+    "relevant": {
+      "GD149": 2,
+      "GD162": 2,
+      "GD164": 2,
+      "GD170": 2,
+      "GD171": 2,
+      "GD167": 1,
+      "GD50": 1,
+      "GD163": 1,
+      "GD165": 1,
+      "GD160": 1,
+      "GD161": 1,
+      "GD166": 1,
+      "GD194": 1,
+      "GD75": 1
+    }
+  },
+  "Q58": {
+    "query": "How can data centres optimise energy consumption during periods of high electricity grid carbon intensity?",
+    "category": "Advanced, comparative and multi-constraint queries",
+    "relevant": {
+      "GD183": 2,
+      "GD177": 2,
+      "GD178": 2,
+      "GD184": 2,
+      "GD74": 2,
+      "GD153": 2,
+      "GD218": 2,
+      "GD175": 1,
+      "GD174": 1,
+      "GD176": 1,
+      "GD181": 1,
+      "GD182": 1,
+      "GD186": 1,
+      "GD185": 1,
+      "GD43": 1,
+      "GD180": 1,
+      "GD83": 1
+    }
+  },
+  "Q59": {
+    "query": "Which technologies can simultaneously improve PUE, WUE and carbon efficiency?",
+    "category": "Advanced, comparative and multi-constraint queries",
+    "relevant": {
+      "GD167": 2,
+      "GD68": 2,
+      "GD170": 2,
+      "GD194": 2,
+      "GD173": 2,
+      "GD44": 1,
+      "GD50": 1,
+      "GD149": 1,
+      "GD162": 1,
+      "GD56": 1,
+      "GD152": 1,
+      "GD75": 1,
+      "GD31": 1,
+      "GD213": 1,
+      "GD202": 1
+    }
+  },
+  "Q60": {
+    "query": "How can data centre operators compare the environmental impact of different infrastructure configurations?",
+    "category": "Advanced, comparative and multi-constraint queries",
+    "relevant": {
+      "GD212": 2,
+      "GD202": 2,
+      "GD205": 2,
+      "GD204": 1,
+      "GD203": 1,
+      "GD213": 1,
+      "GD167": 1,
+      "GD170": 1,
+      "GD25": 1,
+      "GD47": 1,
+      "GD152": 1,
+      "GD34": 1,
+      "GD54": 1,
+      "GD75": 1,
+      "GD194": 1
+    }
+  }
+}

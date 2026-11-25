@@ -8,7 +8,6 @@ PDF_FOLDER = "data/pdfs"
 
 
 def identify_topics(title, text):
-
     content = (title + " " + text[:5000]).lower()
 
     topic_keywords = {
@@ -53,13 +52,10 @@ def identify_topics(title, text):
 
 
 def build_catalogue():
-
     catalogue = {}
 
     with open(INPUT_FILE, "r", encoding="utf-8") as file:
-
         for line in file:
-
             document = json.loads(line)
 
             doc_id = document.get("document_id")
@@ -67,6 +63,8 @@ def build_catalogue():
             full_text = document.get("full_text") or ""
 
             pdf_path = os.path.join(PDF_FOLDER, doc_id + ".pdf")
+            if not os.path.exists(pdf_path):
+                pdf_path = None
 
             # Store the complete document as JSON
             catalogue[doc_id] = {
@@ -80,20 +78,13 @@ def build_catalogue():
                     "source": document.get("source"),
                     "document_type": document.get("document_type"),
                     "topics": identify_topics(title, full_text),
-                    "document_path": (
-                        pdf_path if os.path.exists(pdf_path) else None
-                    )
+                    "document_path": pdf_path
                 },
                 "full_text": full_text
             }
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
-        json.dump(
-            catalogue,
-            file,
-            indent=4,
-            ensure_ascii=False
-        )
+        json.dump(catalogue, file, indent=4, ensure_ascii=False)
 
     print("JSON catalogue created successfully!")
     print("Total documents:", len(catalogue))
